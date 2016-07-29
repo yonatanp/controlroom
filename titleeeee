@@ -1,0 +1,3 @@
+#!/bin/bash
+path=${1:-~/media}
+filebot -get-missing-subtitles -r -non-strict "${path}"
